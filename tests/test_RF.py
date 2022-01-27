@@ -2,6 +2,7 @@
 import pickle
 import pandas as pd
 from sklearn.metrics import r2_score, mean_squared_error
+from sklearn.ensemble import RandomForestRegressor
 from labtrade import labtrade
 
 """Essa estrategia deve ser utilizada apenas para fins de demonstração e teste do labtrade, portanto não utilizá-la 
